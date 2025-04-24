@@ -1,0 +1,218 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f8f9fa; 
+}
+
+.nav {
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #1E1E1E;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.nav-item a.nav-link {
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+
+.nav-item a.nav-link:hover {
+    color: #CCCCCC; 
+}
+
+.p-1 {
+    color: #1E1E1E;
+    line-height: 1;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.description {
+    color: white;
+    border-radius: 10px;
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #1E1E1E;
+    margin-top: 10px; 
+}
+
+.p-2 {
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    color: #1E1E1E;
+    margin-top: 20px; 
+}
+
+.p-3 {
+    margin-top: 20px; 
+}
+
+.btn-primary {
+    background-color: #1E1E1E; 
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #333333;
+}
+
+.containers {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh; 
+    padding: 90px; 
+}
+
+.rows {
+    width: 100%;
+    max-width: 1800px; 
+    margin: 0 auto; 
+}
+button{
+    background-color: #1E1E1E;
+}
+hr{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.table thead th {
+    background-color: #1E1E1E;
+    color: white;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.table tbody td {
+    background-color: white;
+}
+.section-name{
+    font-weight: 800;
+    font-family: 'DM Sans', sans-serif;
+    margin: 40px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.experience-year {
+    background-color: #1E1E1E;
+    width: 60px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.experience-title {
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.experience-company {
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'DM Sans', sans-serif;
+} 
+.col{
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.col-4, .col-6{
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.opacity{
+    opacity: 0.5;
+}
+.level{
+    background-color: #1E1E1E;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    width: 180px;
+}
+.carousel-image {
+    width: 50%; 
+    height: auto; 
+}
+
+.carousel-item img {
+    display: block;
+    margin: 0 auto; 
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    color: white; 
+}
+
+
+.carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.carousel-caption p {
+    font-size: 16px; 
+    margin-top: 10px; 
+}
+.card-body{
+    background-color: #F0F0F0;
+}
+.section-name1{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 10px; 
+}
+.btn{
+    margin: -15px;
+    width: 180px;
+    height: 40px;
+    background-color: #1E1E1E;
+}
+.card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
